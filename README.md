@@ -1,1 +1,2 @@
 # EDAI-project
+Hello, world
