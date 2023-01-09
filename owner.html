@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="owner.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    
+    <div class="title">Enter your details </div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Description of property</span>
+            <input type="text" placeholder="Description of your property" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Preferences</span>
+            <input type="text" placeholder="Preferences" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Location</span>
+            <input type="text" placeholder="Location" required>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Deposit</span>
+            <input type="number" placeholder="Deposit" required>
+          </div>  
+          <div class="input-box">
+            <span class="details">Food options</span>
+            <input type="text" placeholder="Food options" required>
+          </div>
+
+          <div class="input-box"  method="post" enctype="multipart/form-data">
+            <span class="details">Select image to upload:</span>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <div class="upload">
+            <input type="submit" value="Upload Image" name="submit" style="background-color: #54d8d1;
+            color: #fff;
+            "></div>
+          </div>
+
+          <div class="input-box">
+            <span class="details">College nearby</span>
+            <input type="number" placeholder="place" required>
+          </div>  
+
+
+
+
+
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          
+          <span class="gender-title">Wifi</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender" style="padding: 10px;">yes</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender"style="padding: 10px;">No</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
